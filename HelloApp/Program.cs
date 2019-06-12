@@ -11,8 +11,12 @@ namespace HelloApp
         static void Main(string[] args)
         {
             Console.Write("Enter your name: ");
+
             string name = Console.ReadLine();
-            Console.WriteLine($"Hello {name}");
+            Console.Write("Enter your surname: ");
+            string surname = Console.ReadLine();
+            Console.WriteLine($"Hello {name} {surname}");
+
             Console.ReadKey();
         }
     }
