@@ -10,9 +10,9 @@ namespace HelloApp
     {
         static void Main(string[] args)
         {
-            Console.Write("Введите свое имя: ");
+            Console.Write("Enter your name: ");
             string name = Console.ReadLine();
-            Console.WriteLine($"Привет {name}");
+            Console.WriteLine($"Hello {name}");
             Console.ReadKey();
         }
     }
