@@ -14,7 +14,7 @@ namespace HelloApp
             string name = Console.ReadLine();
             Console.Write("Enter your surname: ");
             string surname = Console.ReadLine();
-            Console.WriteLine($"\tHello {name} {surname}");
+            Console.WriteLine($"\tHello \n\t{name} {surname}");
             Console.ReadKey();
         }
     }
