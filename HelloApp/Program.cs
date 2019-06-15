@@ -18,7 +18,7 @@ namespace HelloApp
             Console.Write("Enter your nickname: ");
             string nickname = Console.ReadLine();
             Console.Write("How old are you: ");
-            var age = Console.ReadLine();
+            int age = Convert.ToInt32(Console.ReadLine());
             
             Console.WriteLine($"\n\tHello \n\t{name} {surname} aka\"{nickname}\" \n\t{age} years old \nLet's get ready to rumble!");
             Console.ReadKey();
