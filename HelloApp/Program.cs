@@ -10,6 +10,7 @@ namespace HelloApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to C#!");
             Console.Write("Enter your name: ");
             string name = Console.ReadLine();
             Console.Write("Enter your surname: ");
@@ -17,9 +18,9 @@ namespace HelloApp
             Console.Write("Enter your nickname: ");
             string nickname = Console.ReadLine();
             Console.Write("How old are you: ");
-            string age = Console.ReadLine();
-
-            Console.WriteLine($"\tHello \n\t{name} {surname} aka\"{nickname}\" \n\t{age} years old ");
+            var age = Console.ReadLine();
+            
+            Console.WriteLine($"\n\tHello \n\t{name} {surname} aka\"{nickname}\" \n\t{age} years old \nLet's get ready to rumble!");
             Console.ReadKey();
         }
     }
